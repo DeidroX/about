@@ -231,7 +231,7 @@ main article {
 
 /* START    --- Article headline */
 
-main .news-heading {
+main .content-heading {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -245,18 +245,18 @@ main .author-date {
     text-align: center;
 }
 
-main .news-heading a,
-main .news a {
+main .content-heading a,
+main .content a {
     color: #FB6C3B;
     text-decoration: underline;
 }
 
-main .news-heading a {
+main .content-heading a {
     margin-right: 1.5rem;
 }
 
-main .news-heading a:hover,
-main .news a:hover {
+main .content-heading a:hover,
+main .content a:hover {
     color: black;
     cursor: pointer;
 }
@@ -264,24 +264,24 @@ main .news a:hover {
 /* END      --- Article headline */
 /* START    --- Article text */
 
-main .news {
+main .content {
     margin: 1rem 0;
 }
 
-main .news img {
+main .content img {
     width: 40%;
     min-width: 400px;
     float: left;
     margin-right: 2%;
 }
 
-main .news img::after {
+main .content img::after {
     content: "";
     display: table;
     clear: both;
 }
 
-main .news p {
+main .content p {
     text-align: justify;
     margin: 0 0 1rem 0;
     padding: 0;
