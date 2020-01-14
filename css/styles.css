@@ -235,12 +235,12 @@ main .content-heading {
     margin: 1rem 0;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-    width: 100%;
+    width: 65%;
 }
 
 main .article-headline {
     margin: 0;
-    padding: 2rem 5rem;
+    padding: 2rem 0;
     text-align: left;
 }
 
@@ -249,13 +249,14 @@ main .article-headline {
 
 main .content {
     margin: 1rem 0;
+    width: 65%;
 }
 
 main .content img {
-    width: 40%;
-    min-width: 400px;
-    float: left;
-    margin-right: 2%;
+    width: 30%;
+    
+    float: right;
+    margin-left: 2%;
 }
 
 main .content img::after {
@@ -268,6 +269,10 @@ main .content p {
     text-align: justify;
     margin: 0 0 1rem 0;
     padding: 0;
+}
+
+main .content p span {
+    font-weight: bold;
 }
 
 main .content a {
