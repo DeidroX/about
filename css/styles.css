@@ -232,33 +232,16 @@ main article {
 /* START    --- Article headline */
 
 main .content-heading {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: center;
     margin: 1rem 0;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 100%;
 }
 
-main .article-headline,
-main .author-date {
+main .article-headline {
     margin: 0;
-    text-align: center;
-}
-
-main .content-heading a,
-main .content a {
-    color: #FB6C3B;
-    text-decoration: underline;
-}
-
-main .content-heading a {
-    margin-right: 1.5rem;
-}
-
-main .content-heading a:hover,
-main .content a:hover {
-    color: black;
-    cursor: pointer;
+    padding: 2rem 5rem;
+    text-align: left;
 }
 
 /* END      --- Article headline */
@@ -285,6 +268,16 @@ main .content p {
     text-align: justify;
     margin: 0 0 1rem 0;
     padding: 0;
+}
+
+main .content a {
+    color: #FB6C3B;
+    text-decoration: underline;
+}
+
+main .content a:hover {
+    color: black;
+    cursor: pointer;
 }
 
 /* END      --- Article text */
