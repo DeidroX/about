@@ -80,6 +80,7 @@ h1 span {
     background-color: white;
     padding-right: 0.6rem;
     margin-left: 5px;
+    line-height: 1;
 }
 
 /* Article headlines */
@@ -233,7 +234,7 @@ main article {
 /* START    --- Article headline */
 
 main .content-heading {
-    width: 65%;
+    width: 75%;
 }
 
 main .article-headline {
@@ -242,6 +243,7 @@ main .article-headline {
     text-align: left;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
+    overflow: hidden;
 }
 
 /* END      --- Article headline */
@@ -249,11 +251,11 @@ main .article-headline {
 
 main .content {
     margin: 0;
-    width: 65%;
+    width: 75%;
 }
 
 main .content img {
-    width: 50%;
+    width: 40%;
     float: right;
     margin-left: 2%;
     margin-bottom: 0;
