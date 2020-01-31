@@ -83,18 +83,22 @@ h1 span {
     line-height: 1;
 }
 
-/* Article headlines */
+/* --- */
 h2 {
     font-family: 'Spectral SC', serif;
     font-size: var(--h2);
     text-shadow: 2px 1px rgb(61, 61, 61);
 }
 
-/* Headlines footer/others */
+/* Article Headlines footer/others */
 h3 {
     font-family: 'Spectral SC', serif;
     font-size: var(--h3);
     text-shadow: 2px 1px rgba(255, 255, 255, 0.300);
+}
+
+main h3 {
+    letter-spacing: 5px;
 }
 
 /* Copyright footer */
@@ -224,7 +228,6 @@ main {
 
 main article {
     width: 75%;
-    
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
